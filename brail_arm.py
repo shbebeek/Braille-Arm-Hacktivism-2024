@@ -3,7 +3,7 @@ from commands2 import Subsystem
 import constants
 import wpilib
 
-class ThreeJointedArmSubsystem(Subsystem):
+class DoubleJointedArmSubsystem(Subsystem):
     def __init__(self) -> None:
         super().__init__()
         self.setName(__class__.__name__)
